@@ -1,0 +1,77 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    display: block;
+    color: black;
+    padding: 14px 16px ;
+    text-decoration:none;
+    background-color:beige ;
+    font-weight:bold;
+    
+}
+#introducao p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: black;
+    padding: 10px;
+}
+#introducao h2 {
+    text-align: center;
+    color: black;
+}
+#desenvolvimento h2 {
+    text-align: center;
+    color: black;
+}
+#desenvolvimento p {
+     font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: black;
+    padding: 10px;
+}
+#conclusao h2 {
+    text-align: center;
+    color: black;
+}
+#conclusao p {
+    text-align: center;
+    color: black;
+}
+#referencias h2 {
+    text-align: center;
+    color: black;
+}
+#referencias li {
+   font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: black;
+    padding: 10px;
+}
+nav ul li a:hover {
+    background-color: black;
+}
+#introducao p:first-child {
+ color: black;
+}
+#desenvolvimento p:first-child {
+    color: black;
+}
+#conclusao p:first-child {
+color: black;
+}
+h2 ~ * {
+    color: black;
+}
