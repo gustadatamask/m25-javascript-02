@@ -1,10 +1,10 @@
 {
   "produtos": [
     {
-      "id": 1,
-      "descricao": "Teclado",
-      "saldo": "20",
-      "preco": "34"
+      "id": "2",
+      "descricao": "teclado",
+      "saldo": 10,
+      "preco": 8
     }
   ]
 }
